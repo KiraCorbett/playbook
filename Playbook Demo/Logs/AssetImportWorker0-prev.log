@@ -1,0 +1,110 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/kiracorbett/Documents/GitHub/playbook-demo/Playbook Demo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52229
+Successfully changed project path to: /Users/kiracorbett/Documents/GitHub/playbook-demo/Playbook Demo
+/Users/kiracorbett/Documents/GitHub/playbook-demo/Playbook Demo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kiracorbett/Documents/GitHub/playbook-demo/Playbook Demo/Assets
+GfxDevice: creating device client; threaded=0
+2022-12-03 14:49:18.793 Unity[16843:286934] Color LCD preferred device: NVIDIA GeForce GT 650M (high power)
+2022-12-03 14:49:18.793 Unity[16843:286934] Metal devices available: 2
+2022-12-03 14:49:18.794 Unity[16843:286934] 0: NVIDIA GeForce GT 650M (high power)
+2022-12-03 14:49:18.794 Unity[16843:286934] 1: Intel HD Graphics 4000 (low power)
+2022-12-03 14:49:18.794 Unity[16843:286934] Using device NVIDIA GeForce GT 650M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 650M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56843
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003240 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 39.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.736 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000970 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.579 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.8 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 2.277347 ms (FindLiveObjects: 0.161648 ms CreateObjectMapping: 0.050520 ms MarkObjects: 1.955045 ms  DeleteObjects: 0.108662 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Demo.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Demo.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7758e255d828eba643f6538ed9b596') in 0.015130 seconds
+  Import took 0.018135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.396924 seconds.
+  path: Assets/Floor.mat
+  artifactKey: Guid(06c8be786ff33472997d5167e099ebf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor.mat using Guid(06c8be786ff33472997d5167e099ebf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b2f38aedaa21687c7aa159db918337') in 1.066489 seconds
+  Import took 1.078389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.476463 seconds.
+  path: Assets/Floor.mat
+  artifactKey: Guid(06c8be786ff33472997d5167e099ebf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor.mat using Guid(06c8be786ff33472997d5167e099ebf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272aea403dee45e88ade64591c510533') in 0.115811 seconds
+  Import took 0.119242 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001121 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.596 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 116.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1600.
+Total: 2.447659 ms (FindLiveObjects: 0.313745 ms CreateObjectMapping: 0.054005 ms MarkObjects: 1.960202 ms  DeleteObjects: 0.117957 ms)
+

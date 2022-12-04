@@ -4,28 +4,38 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
+    // create button
+    // spawn gameobjects
+    // get active gameobject onclick
 
-    public GameObject spawnObject;
+    // add rigidbody
+    // create new scripts on instantiation and attach
+    // movement
+
+    public GameObject gameObject;
+    public int size;
     public UnityEngine.Transform parent;
+
+    public GameObject getSpawnObjects()
+    {
+        return gameObject;
+    }
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            SpawnCube();
-        }
+
     }
 
-    public void SpawnCube()
+    public void Spawn()
     {
-        Instantiate(spawnObject, new Vector3(0,25,0), Quaternion.identity, parent);
+        Instantiate(gameObject, new Vector3(0, 25, 0), Quaternion.identity, parent);
     }
 }
-

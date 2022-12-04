@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/Transform.cs" />
     <Compile Include="Assets/Scripts/SpawnManager.cs" />
+    <Compile Include="Assets/Scripts/SpawnButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

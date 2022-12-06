@@ -24,6 +24,7 @@ public class Transform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // translate
         if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);

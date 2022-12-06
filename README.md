@@ -22,6 +22,9 @@ MacOS build only.
 
 ## Future
 I have always wanted to create a view cube in Unity to mimic the movement Gizmos in Unity scenes. My initial idea was to create a mimic rotational gizmo in Fusion 360 then import it in Unity as a mesh so that rotation can take place along the x, y, and z axes in an intuitive way for the user. Some neat things I would consider expanding on after basic rotation include:
+- User intuitive object manipulation tools e.g. visual gizmo for translation, rotation, and scaling.
+- Real rotation with Quaternions
+- Spawn an element then be able to click on any spawned element to update it's movement.
 
 
 

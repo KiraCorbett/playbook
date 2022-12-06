@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 
 public class Buttons : MonoBehaviour
@@ -9,11 +10,18 @@ public class Buttons : MonoBehaviour
     public GameObject cubeButton;
     public GameObject materialCube;
     public SpawnManager spawnManager;
+    public Button translateButton;
+
+    Transform translate;
+
+    private bool isTranslating = false;
 
     // Start is called before the first frame update
     void Start()
     {
         cubeButton = gameObject;
+        Button btn = translateButton.GetComponent<Button>();
+        btn.onClick.AddListener(TranslateButton);   
     }
 
     // Update is called once per frame

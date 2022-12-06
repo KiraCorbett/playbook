@@ -1,0 +1,6 @@
+.vs
+.vs/
+.vs/*
+
+# ignore packages, naturally restored
+**/[Pp]ackages/*

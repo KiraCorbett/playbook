@@ -9,10 +9,6 @@ public class Rotation : MonoBehaviour
     // fake rotation; 
     public float speed = 30.0f;
 
-    bool rotate = false;
-
-    public Transform parent;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -24,29 +20,23 @@ public class Rotation : MonoBehaviour
     {
         Quaternion currentRotation = transform.rotation;
 
-        if(Input.GetKey(KeyCode.U))
-        {
-            rotate = !rotate;
-        }
        
         //if (Input.GetKey(KeyCode.X))
-        {
+        //{
             //currentRotation = Quaternion.AngleAxis(Time.deltaTime * speed, transform.right) * currentRotation;
-            transform.Rotate(Vector3.right, speed * Time.deltaTime);
-            Debug.Log("Hit");
-        }
+        //}
                 
         if (Input.GetKey(KeyCode.Y))
         {
             currentRotation = Quaternion.AngleAxis(Time.deltaTime * speed, transform.up) * currentRotation;
         }
             
-        if (Input.GetKey(KeyCode.Z))
-        {
-            currentRotation = Quaternion.AngleAxis(Time.deltaTime * speed, transform.forward) * currentRotation;
-        }
+        //if (Input.GetKey(KeyCode.Z))
+        //{
+        //    currentRotation = Quaternion.AngleAxis(Time.deltaTime * speed, transform.forward) * currentRotation;
+        //}
 
 
-        //transform.rotation = currentRotation;
+        transform.rotation = currentRotation;
     }
 }

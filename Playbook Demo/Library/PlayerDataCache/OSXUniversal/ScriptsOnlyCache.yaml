@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Buttons
+    - Rotation
     - SpawnManager
     - Transform
     Unity.Rider.Editor.dll:
@@ -11,11 +12,15 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/Spawn.unity:
+    Assets/Scenes/Demo.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -47,9 +52,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1486}
+    - Class: 114
+      Script: {instanceID: 2144}
+    - Class: 114
       Script: {instanceID: 2210}
     - Class: 114
       Script: {instanceID: 2632}
+    - Class: 114
+      Script: {instanceID: 2812}
     - Class: 114
       Script: {instanceID: 2992}
     - Class: 114
@@ -59,14 +70,22 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3238}
     - Class: 114
-      Script: {instanceID: 15050}
+      Script: {instanceID: 3358}
+    - Class: 114
+      Script: {instanceID: 3494}
+    - Class: 114
+      Script: {instanceID: 14920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -527,5 +546,5 @@ ScriptsOnlyBuild:
     className: TextContainer
   platform: 2
   scenePathNames:
-  - Assets/Scenes/Spawn.unity
-  playerPath: /Users/kiracorbett/Documents/GitHub/playbook/Spawn.app
+  - Assets/Scenes/Demo.unity
+  playerPath: /Users/kiracorbett/Documents/GitHub/playbook/Demo.app

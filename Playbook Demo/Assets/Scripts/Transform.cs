@@ -9,7 +9,7 @@ public class Transform : MonoBehaviour
     private Vector3 moveTransform;
     private Vector3 scaleTransform;
 
-    private float speed = 5.0f;
+    private float speed = 50.0f;
     private float scale = 2.0f;
 
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class Transform : MonoBehaviour
         testCube = GameObject.Find("TestCube");
 
         moveTransform = transform.localScale;
-        scaleTransform = new Vector3(0.02f, 0.02f, 0.02f);
+        scaleTransform = new Vector3(0.08f, 0.08f, 0.08f);
     }
 
     // Update is called once per frame

@@ -13,6 +13,6 @@ public class SpawnManager : MonoBehaviour
 
     public void Spawn()
     {
-        Instantiate(gameObject, new Vector3(0, 25, 0), Quaternion.identity, parent);
+        Instantiate(gameObject, new Vector3(-10, 8, 120), Quaternion.identity, parent);
     }
 }
